@@ -2,10 +2,13 @@
 shopt -s globstar
 GLOBIGNORE=.:..
 
+### CHANGE THIS VARIABLE ###
+user="Matt"
+
 ## VARIABLES ##
 debug=0  # Debug output lvl1
 debug2=1 # Enumerate files before copy
-ROOT_DEST="/home/Matt/backup"
+ROOT_DEST="/home/${user}/backup"
 YELLOW='\033[0;33m' # Yeller color
 RED='\033[0;31m' # Red color
 GREEN='\033[0;32m' # Green color
